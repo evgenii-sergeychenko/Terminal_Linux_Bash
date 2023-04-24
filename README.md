@@ -1,4 +1,3 @@
-This repository contains two completed Terminal Linux homework
 # HOMEWORK_№1
 ---
 + Посмотреть где я - `pwd`
