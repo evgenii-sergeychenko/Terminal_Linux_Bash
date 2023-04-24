@@ -1,4 +1,4 @@
-### Homework_№1
+*** Homework_№1 ***
 ---
 + Посмотреть где я - `pwd`
 + Создать папку - `mkdir foldername`
