@@ -63,18 +63,18 @@
 ***21. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13:***
 
     ```
-    `nano firstscript.sh` - открываем редактор и задаём имя скрипта
-     `#!/bin/bash` - указатель что это оболочка bash
-     `cd foldername`
-     `mkdir folder_1 folder_2 folder_3`
-     `cd folder_1`
-     `touch f_1.txt f_2.txt f_3.txt d_1.json d_2.json`
-     `mkdir catalog_1 catalog_2 catalog_3`
-     `ls -la`
-     `mv ./folder_1/{f_1.txt,f_2.txt} D:/foldername/folder_2/`
-     `CTRL + D` - выходим и сохраняем скрипт   
-     `chmod +x ./firstscript` - делаем скрипт исполняемым
-     `./firstscript` - запускаем скрипт ```
+    nano firstscript.sh
+    #!/bin/bash
+    cd foldername
+    mkdir folder_1 folder_2 folder_3
+    cd folder_1
+    touch f_1.txt f_2.txt f_3.txt d_1.json d_2.json
+    mkdir catalog_1 catalog_2 catalog_3
+    ls -la
+    mv ./folder_1/{f_1.txt,f_2.txt} D:/foldername/folder_2/
+    CTRL + D` - выходим и сохраняем скрипт   
+    chmod +x ./firstscript` - делаем скрипт исполняемым
+    ./firstscript` - запускаем скрипт ```
 ---
 
 # HOMEWORK_№2
