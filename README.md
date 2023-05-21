@@ -62,7 +62,7 @@
 -----------------------------
 ***21. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13:***
 
-    ```nano firstscript.sh
+    nano firstscript.sh
     #!/bin/bash
     cd foldername
     mkdir folder_1 folder_2 folder_3
@@ -73,7 +73,7 @@
     mv ./folder_1/{f_1.txt,f_2.txt} D:/foldername/folder_2/
     CTRL + D` - выходим и сохраняем скрипт   
     chmod +x ./firstscript` - делаем скрипт исполняемым
-    ./firstscript` - запускаем скрипт ```
+    ./firstscript` - запускаем скрипт
 ---
 
 # HOMEWORK_№2
