@@ -1,6 +1,6 @@
 # HOMEWORK_№1
 ---
-+ Посмотреть где я:
++ Посмотреть где я:<br>
                     >`pwd`
 + Создать папку - `mkdir foldername`
 + Зайти в папку - `cd foldername`
