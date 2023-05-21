@@ -62,8 +62,7 @@
 -----------------------------
 ***21. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13:***
 
-    ```
-    nano firstscript.sh
+    ```nano firstscript.sh
     #!/bin/bash
     cd foldername
     mkdir folder_1 folder_2 folder_3
