@@ -2,7 +2,8 @@
 ---
 ***1. Посмотреть где я:***
 >`pwd`
-+ Создать папку - `mkdir foldername`
+***2. Создать папку***
+>`mkdir foldername`
 + Зайти в папку - `cd foldername`
 + Создать 3 папки - `mkdir name_folder_1 name_folder_2 name_folder_3`
 + Зайти в любоую папку - `cd name_folder_1`
