@@ -48,24 +48,32 @@
 ***16. Вывести несколько последних строк из текстового файла:***
 > `tail -n 4 file3.txt`
 -----------------------------
-+ Посмотреть содержимое длинного файла команда `less file3.txt`
-+ Вывести дату и время - `date`
-+ Отправить http-запрос на сервер http://162.55.220.72:5005/terminal-hw-request - `curl http://162.55.220.72:5005/terminal-hw-request`
-+ Получаем заголовки от сервера - `curl -i http://162.55.220.72:5005/terminal-hw-request`
-+ Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+***17. Посмотреть содержимое длинного файла команда:***
+> `less file3.txt`
+-----------------------------
+***18. Вывести дату и время:***
+> `date`
+-----------------------------
+***19. Отправить http-запрос на сервер http://162.55.220.72:5005/terminal-hw-request:***
+> `curl http://162.55.220.72:5005/terminal-hw-request`
+-----------------------------
+***20. Получаем заголовки от сервера:***
+> `curl -i http://162.55.220.72:5005/terminal-hw-request`
+-----------------------------
+***21. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13:***
 
-    * `nano firstscript.sh` - открываем редактор и задаём имя скрипта
-    * `#!/bin/bash` - указатель что это оболочка bash
-    * `cd foldername`
-    * `mkdir folder_1 folder_2 folder_3`
-    * `cd folder_1`
-    * `touch f_1.txt f_2.txt f_3.txt d_1.json d_2.json`
-    * `mkdir catalog_1 catalog_2 catalog_3`
-    * `ls -la`
-    * `mv ./folder_1/{f_1.txt,f_2.txt} D:/foldername/folder_2/`
-    * `CTRL + D` - выходим и сохраняем скрипт   
-    * `chmod +x ./firstscript` - делаем скрипт исполняемым
-    * `./firstscript` - запускаем скрипт
+    > `nano firstscript.sh` - открываем редактор и задаём имя скрипта
+    > `#!/bin/bash` - указатель что это оболочка bash
+    > `cd foldername`
+    > `mkdir folder_1 folder_2 folder_3`
+    > `cd folder_1`
+    > `touch f_1.txt f_2.txt f_3.txt d_1.json d_2.json`
+    > `mkdir catalog_1 catalog_2 catalog_3`
+    > `ls -la`
+    > `mv ./folder_1/{f_1.txt,f_2.txt} D:/foldername/folder_2/`
+    > `CTRL + D` - выходим и сохраняем скрипт   
+    > `chmod +x ./firstscript` - делаем скрипт исполняемым
+    > `./firstscript` - запускаем скрипт
 ---
 
 # HOMEWORK_№2
