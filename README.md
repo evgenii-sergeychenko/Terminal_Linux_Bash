@@ -5,7 +5,10 @@
 -----------------------------
 ***2. Создать папку:***
 >`mkdir foldername`
-+ Зайти в папку - `cd foldername`
+-----------------------------
+***3.Зайти в папку***
+>`cd foldername`
+-----------------------------
 + Создать 3 папки - `mkdir name_folder_1 name_folder_2 name_folder_3`
 + Зайти в любоую папку - `cd name_folder_1`
 + Создать 5 файлов (3 txt, 2 json) - `touch file1.txt file2.txt file3.txt doc1.json doc2.json`
