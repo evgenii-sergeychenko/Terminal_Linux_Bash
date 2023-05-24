@@ -181,7 +181,7 @@
 > `head -n 4 ./inner_dir-1/tf_3.txt`
 ---
 ***35. Команда в одну строку. Создать папку и создать текстовый файл с содержиммым:***
-> `mrkdir folder | echo This is my bash practice > tf_6.txt (файл tf_6.txt будет создан вне новой папки)`.
+> `mrkdir folder | echo "This is my bash practice" >> tf_6.txt (файл tf_6.txt будет создан вне новой папки)`.
 ---
 ***36. Команда в одну строку созадать папку внутри с файлом содержащий текст:***
 > `mkdir NEW_FOLDER && cd NEW_FOLDER && echo "Text" >> TF_10.txt`
