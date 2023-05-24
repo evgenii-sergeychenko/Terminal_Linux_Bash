@@ -71,7 +71,7 @@
     mkdir catalog_1 catalog_2 catalog_3
     ls -la
     mv ./folder_1/{f_1.txt,f_2.txt} D:/foldername/folder_2/
-    CTRL + D` - выходим и сохраняем скрипт   
+    CTRL + X` - выходим и сохраняем скрипт   
     chmod +x ./firstscript` - делаем скрипт исполняемым
     ./firstscript` - запускаем скрипт
 ---
